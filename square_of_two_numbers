@@ -1,0 +1,25 @@
+// In this program we are going to learn the new way to square in C, 
+// there is no any other function in C to square two numbers but we can use the pow(x, y) to square the two numbers.
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+
+int main()
+{
+  int num1, num2, square;
+  clrscr();
+  
+  printf("Enter the numbers....");
+  scanf("%d %d",&num1, &num2);
+  square = pow(num1, num2);
+  printf(" = ",square);
+  
+  getch();
+  return(0);
+}
+
+Output : Enter the numbers....
+         3
+         2
+         = 9
