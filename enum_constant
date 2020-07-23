@@ -1,0 +1,16 @@
+// Program to understand the enumeration constant and its uses.
+
+#include<stdio.h>
+
+void main()
+{
+	enum color{red, white, blue, green};
+	enum color C = blue;
+	clrscr();
+
+	printf("As an integer the value of the C is %d\n",C);
+
+	getch();
+}
+
+Output : As an integer the value of the C is 2
