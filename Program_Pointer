@@ -1,0 +1,18 @@
+// Program for understanding Pointers in C.
+
+#include<stdio.h>
+int main()
+{
+	int a = 10;
+	int* pointer_to_a;
+	pointer_to_a = &a;
+
+	clrscr();
+
+	printf("Address of the integer a %d\n",pointer_to_a);
+
+	getch();
+	return(0);
+}
+
+// Output : Address of the integer a 15478
